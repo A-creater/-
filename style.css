@@ -17,6 +17,7 @@
     color: #fff;
     padding: 16px 40px;
     border-radius: 40px;
+    text-decoration: none;
 }
 
 .header{
@@ -68,5 +69,35 @@ darkblue: 242f51
 */
 .menu__button{
     color: #fff;
+    margin-left: 55px;
+}
+
+.welcome__wrap{
+    display: flex;
+    align-items: center;
+}
+
+.welcome__info{
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.awards{
+    background: #616338;
+    display: flex;
+    align-items: center;
+
+}
+.awards__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #feaa25;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+
 }
     
